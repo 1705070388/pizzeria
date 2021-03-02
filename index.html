@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pizzeria</title>
+    <title>Pizzaria</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@
         <div  class="img_div"> 
             <img class="img-responsive"  src="images/pizza.png">
         </div>
-        <div class="div_menu">
+        <div class="menu_div">
             <button id="menu_list" onclick="getmenu()">Show Menu</button>
            <div id="display_menu"></div>
         </div>
@@ -35,12 +35,13 @@
             <input id="add_item" placeholder="Type here to add toppings?"/></br>
             <button id="add_toppings" onclick="add_item()" >Recommend a new Pizza</button>
         </div>
+        <div class="block2">
+            <div id="display_addedmenu">
+            </div>
+        </div>
         
     </div>
-    <div class="block2">
-        <div id="display_addedmenu">
-        </div>
-    </div>
+
     <div>
         <img class="img-responsive"  src="images/topping.png">
     </div>
