@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/Bg.jpg");
+	background-image: url("Bg.jpg");
 	/* background-repeat: no-repeat; */
 }
 
@@ -13,7 +13,7 @@ body{
   
   .topnav a {
 	float: left;
-	color: #f2f2f2;
+	color: #ffffff;
 	font-family: cursive;
 	text-align: center;
 	padding: 14px 16px;
@@ -50,7 +50,7 @@ body{
   }
   #menu_list{
 	background-color:#f5c71a;
-	color:black; 
+	color:white; 
 	width: 200px;
 	border: none;
   }
